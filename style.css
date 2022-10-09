@@ -70,7 +70,6 @@ a {
     font-size: 27px;
     padding: 10px 5px;
     border-bottom: 3px solid rgba(4,50,179);
-  
   }
   .about-section {
     flex-direction: column;
@@ -85,7 +84,7 @@ a {
     padding-right: 70px;
     margin:30px;
     margin-right:30px;
-    margin-bottom: 70px;
+    margin-bottom: 7px;
     background-color: rgb(230,103,158);
     line-height:2;
   }
