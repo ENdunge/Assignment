@@ -68,7 +68,7 @@ a {
   .about-section {
     flex-direction: column;
     width: 100%;
-    text-align: center;
+    text-align: left;
     font-family: Oxygen, sans-serif;
     color: #fff;
     float: left;
@@ -85,7 +85,52 @@ a {
   .about-item-header {
     margin: auto;
     border-bottom: 1px solid rgb(157, 176, 228);
-
   }
+  .skill-container {
+    width: 100%;
+    background-color: #ddd;
+  }
+  .skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+  }
+  .Stakeholder {width: 95%; background-color: #04AA6D;}
+.Reporting {width: 80%; background-color: #2196F3;}
+.Hardware {width: 79%; background-color: #f44336;}
+.Network {width: 64%; background-color: #808080;}
+.Project-section {
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
-  
+.Projects-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 6em;
+  }
+  .Projects-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+    border-radius: 4px;
+  }
+  .Projects-logo > img {
+    width: 100%;
+    height: 100%;
+  }
+  .Projects-logo {
+    width: 13em;
+    height: 12em;
+  }
+  .Projects-name {
+    font-family: Oxygen, sans-serif;
+    font-size: 27px;
+    margin-top: 1.7em;
+  }
