@@ -65,6 +65,13 @@ a {
     display: flex;
     margin-top: 3em;
   }
+  .section-header {
+    margin: auto;
+    font-size: 27px;
+    padding: 10px 5px;
+    border-bottom: 3px solid rgba(4,50,179);
+  
+  }
   .about-section {
     flex-direction: column;
     width: 100%;
@@ -87,13 +94,15 @@ a {
     border-bottom: 1px solid rgb(157, 176, 228);
   }
   .skill-container {
-    width: 100%;
+    width: 50%;
+    height: 4px;
     background-color: #ddd;
   }
   .skills {
     text-align: right;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    height: 4px;
+    padding-top: 2px;
+    padding-bottom: 2px;
     color: white;
   }
   .Stakeholder {width: 95%; background-color: #04AA6D;}
@@ -111,7 +120,7 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-top: 6em;
+
   }
   .Projects-item {
     display: flex;
@@ -131,6 +140,6 @@ a {
   }
   .Projects-name {
     font-family: Oxygen, sans-serif;
-    font-size: 27px;
+    font-size: 22px;
     margin-top: 1.7em;
   }
